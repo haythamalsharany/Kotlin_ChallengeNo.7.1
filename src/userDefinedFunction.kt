@@ -17,19 +17,20 @@ class UserDefinedFun() {
 
         var s: () -> String = {
 
-            "anonymous function"
+            funType= "anonymous function"
+            funType
         }
-        funType = s.toString()
-        println("this is an  explicit type  $funType ")
+
+        println("this is an  explicit type  anonymous function")
     }
 
     fun anonymousInfFun() {
 
         var s = {
 
-            "anonymous function"
+              "anonymous function"
         }
-        funType = s.toString()
-        println("this is an inference type  $funType ")
+
+        println("this is an inference type  anonymous function ")
     }
 }
